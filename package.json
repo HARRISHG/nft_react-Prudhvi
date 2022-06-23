@@ -1,0 +1,70 @@
+{
+  "name": "nft_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blocto/sdk": "^0.2.22",
+    "@onflow/fcl": "^1.0.2",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@web3auth/base": "^1.0.1",
+    "@web3auth/web3auth": "^1.0.1",
+    "dayjs": "^1.11.3",
+    "ethers": "^5.6.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "moralis": "^1.8.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-moralis": "^1.4.0",
+    "react-redux": "^8.0.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.2",
+    "redux": "^4.2.0",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.3",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.0.1",
+    "https-browserify": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}

@@ -1,0 +1,258 @@
+nav {
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(17 81 171);
+  filter: drop-shadow(-2px 6px 6px #1313);
+}
+
+nav img {
+  width: 150px;
+  position: absolute;
+  top: 17px;
+  left: 7%;
+}
+
+nav ul {
+  position: absolute;
+  left: 37%;
+  background: none;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 59px;
+  margin: 0 15px;
+  background: none;
+}
+
+nav div {
+  position: absolute;
+  left: 85%;
+  background: none;
+}
+
+nav div li {
+  display: inline-block;
+  line-height: 59px;
+  margin: 0 15px;
+  background: none;
+}
+
+nav ul li a,
+nav div li a {
+  position: relative;
+  padding: 8px 0;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: none;
+}
+
+.signup {
+  border: 2px solid rgb(244, 222, 57);
+  border-radius: 22px;
+  padding: 7px;
+  background: rgb(244, 222, 57);
+  filter: drop-shadow(-3px 1px 11px yellow);
+}
+
+nav ul li a::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: rgb(244, 222, 57);
+  transform: scaleX(0);
+  transform-origin: right;
+}
+nav ul li a.active::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: rgb(244, 222, 57);
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+nav ul li a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* PROFILE SECTION  */
+
+#profile {
+  height: 166px;
+  position: relative;
+  top: 82px;
+  background: rgb(17, 81, 171);
+  background: linear-gradient(
+    0deg,
+    rgba(17, 81, 171, 1) 0%,
+    rgba(96, 70, 218, 1) 100%
+  );
+  height: 166px;
+  position: relative;
+  top: 82px;
+  filter: drop-shadow(-2px -9px 6px #1313);
+}
+
+#profile img {
+  width: 99px;
+  height: 100px;
+  position: relative;
+  top: -50px;
+  left: 162px;
+  border-radius: 73px;
+}
+
+#profile h1 {
+  background: none;
+  font-size: 20px;
+  position: relative;
+  top: -39px;
+  left: 158px;
+  width: 50%;
+}
+
+#profile h6 {
+  background: none;
+  position: relative;
+  top: -29px;
+  left: 158px;
+  color: #b4aeae;
+  font-size: 14px;
+  width: 50%;
+}
+
+#profile .highlight {
+  font-size: 15px;
+  position: relative;
+  left: 186px;
+  top: -5px;
+  cursor: pointer;
+}
+
+#profile .moments {
+  position: relative;
+  left: 299px;
+  top: -23px;
+  padding: 2px;
+}
+
+#peofile .highlight::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 10.8%;
+  background: rgb(244, 222, 57);
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+#peofile .highlight:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+#profile .moments::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 10.8%;
+  background: rgb(244, 222, 57);
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+#profile .more {
+  cursor: pointer;
+  float: right;
+  position: relative;
+  left: -131px;
+  width: 14px;
+  height: 14px;
+  top: -155px;
+  border: 1px solid white;
+  border-radius: 1px;
+  background: #4c48ce;
+  padding: 9px;
+}
+#section {
+  position: relative;
+  top: 128px;
+  background: rgb(96, 70, 218);
+  background: linear-gradient(
+    0deg,
+    rgba(96, 70, 218, 1) 14%,
+    rgba(17, 81, 171, 1) 15%
+  );
+  width: 82%;
+  height: 43px;
+  left: 152px;
+}
+
+#section h5 {
+  background: none;
+  color: white;
+  width: 50%;
+  position: relative;
+  top: 13px;
+  left: 20px;
+}
+
+#section h5 span {
+  border: 1px solid #8b8b8b;
+  padding: 4px;
+  /* margin: 0px; */
+  background: #8b8b8b;
+  border-radius: 33px;
+}
+
+#marketplace {
+  position: absolute;
+  top: 577px;
+  left: 577px;
+  height: 154px;
+  background: none;
+}
+
+#marketplace h2 {
+  background: none;
+}
+
+#marketplace h2 strong {
+  background: none;
+  font-size: 33px;
+}
+
+#marketplace p {
+  background: none;
+  position: relative;
+  top: 16px;
+  color: #e1e1e1;
+}
+
+#marketplace h2 strong button {
+  cursor: pointer;
+  padding: 8px;
+  background: yellow;
+  color: black;
+  position: relative;
+  top: 34px;
+  font-size: 23px;
+  left: 46px;
+  border-radius: 13px;
+  border: 1px solid yellow;
+  filter: drop-shadow(2px 4px 6px yellow);
+}

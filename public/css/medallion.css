@@ -1,0 +1,83 @@
+/* Medallion Home Page Css */
+.nav-back {
+  background-color: #1f559b !important;
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+.nav-link.active {
+  color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+.btn-outline-dark {
+  color: #fff;
+  border-color: #fff;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.text-t {
+  margin: 0;
+  padding: 9px;
+  color: #fff;
+}
+.bg-banner {
+  background: linear-gradient(
+    180deg,
+    rgba(56, 113, 164, 0.9) 0%,
+    rgba(180, 210, 233, 0.939636) 60.36%,
+    #c4d9e4 98.96%
+  );
+}
+.three-a {
+  width: 100%;
+  object-fit: cover;
+}
+.by-text h2 {
+  color: #fff;
+}
+.btn-outline-dark {
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  background: #24a0ed;
+}
+.bg-back {
+  background-color: #1f559b !important;
+}
+
+/* Medallion View Page Css */
+.bg-nav {
+  background-color: #1f559b !important;
+}
+
+.three-b {
+  width: 600px;
+  height: 700px;
+  object-fit: cover;
+}
+.buy-to {
+  color: #fff !important;
+}
+.bg-item {
+  background: linear-gradient(
+    180deg,
+    rgba(56, 113, 164, 0.9) 0%,
+    rgba(180, 210, 233, 0.939636) 60.36%,
+    #c4d9e4 98.96%
+  );
+}
+.lead {
+  color: #fff !important;
+}
+.text-to {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #24a0ed;
+}
