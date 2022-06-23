@@ -121,14 +121,14 @@ function DemoNav() {
     }
   };
 
-  const GetUserAccount = async () => {
-    try {
-      const web3 = new Web3(ConnectionProvider);
-      return await web3.eth.getAccounts();
-    } catch (err) {
-      console.log(err);
-    }
-  };
+  // const GetUserAccount = async () => {
+  //   try {
+  //     const web3 = new Web3(ConnectionProvider);
+  //     return await web3.eth.getAccounts();
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // };
 
   useEffect(() => {
     Init();

@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 import ABI from "./Abi.json";
 import { Web3Auth } from "@web3auth/web3auth";
 import { CHAIN_NAMESPACES } from "@web3auth/base";
-import Web3 from "web3";
+
 
 const clientId =
   "BKNvAoPGYAHF3GP3xl9zbWCW6xKaFmhMWocrcozJLXcjJGk-7gE0Bn6hqNkJDLtPz0csjqk63KR8P2cADFT00Gc";
